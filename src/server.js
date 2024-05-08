@@ -5,7 +5,7 @@ const userRoutes = require("../src/routes/userRoutes");
 
 const PORT = 3000;
 
-mongoose.connect('mongodb+srv://nascimentotassi:110328@cluster0.okgwpos.mongodb.net/').then(() => {
+mongoose.connect('mongodb+srv://contatogrupomicrotec:NcBsg5dZYt5OhzJe@cluster0.yjcrlyu.mongodb.net/').then(() => {
     console.log("Conexão com o mongodb estabelecida com sucesso")
 }).catch(error => {
     console.log("Erro ao conectar o mongodb", error);
